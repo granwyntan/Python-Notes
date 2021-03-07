@@ -40,4 +40,36 @@ for item in mylist:
 ## After that u should print to check if its right b4 submitting code, etc.
 print(mylist)
 
+# String and List
+# String
+## Functions
+
+
+# List
+## Concatenation
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+list3 = list1 + list2
+
+## Repetition
+mylist = [0] * 10
+## or
+anotherlist = list1 * 3
+
+## Index [i]
+a = ["hehe", "haha", "lmao", "hall", "classroom", "lab", "field", "library"]
+i = 0
+print(a[i])
+
+## Slice [a:b]
+print(a[1:5])
+
+## Slice with steps [a:b:c]
+address = "1 Technology Drive"
+new_addr = address[2::2]
+
+## Membership check (in)
+text = "The red fox is quick"
+print("brown" in text) # False
+
 ############################################################################################################################################################
